@@ -16,14 +16,8 @@ test data
     \item{\code{w}}{a numeric vector}
   }
 }
-\details{
-%%  ~~ If necessary, more details than the __description__ above ~~
-}
-\source{
-\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
-}
 \references{
-%%  ~~ possibly secondary sources and usages ~~
+\url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }
 \examples{
 data(wiki_graph)
