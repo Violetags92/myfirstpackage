@@ -8,3 +8,4 @@ Maintainer: Yixuan <yixxu916@student.liu.se>
 Description: Cause we need to practice how to create a package in R, we made this.
 License: free
 LazyData: true
+Suggests: testthat

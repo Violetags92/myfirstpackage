@@ -9,7 +9,7 @@
 #' dijkstra(wiki_graph, 3)
 dijkstra <- function(graph, init_node){
   stopifnot(is.data.frame(graph) && is.numeric(init_node ) && any(init_node == graph[,1]))
-  stopifnot(graph[,1]==v1&&graph[,2]==v2&&graph[,3]==w)
+  stopifnot(names(graph) == c("v1", "v2", "w"))
   result <- list()
   graph1 <- list()
   i <- 2
