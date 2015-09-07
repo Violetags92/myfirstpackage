@@ -1,3 +1,13 @@
+#' The algoritm to implement is the Euclidian algorithm to find the greatest common divisor of two
+#' numbers.
+#' 
+#' @param x A number.
+#' @param y A number.
+#' @return the greatest common divisor of \code{x} and \code{y}.
+#' \code{\link{https://en.wikipedia.org/wiki/Euclidean_algorithm}}
+#' @examples
+#' euclidian(123612, 13892347912)
+#' euclidian(100, 1000)
 euclidian <- function(x,y){
   stopifnot(is.numeric(x)&&is.numeric(y))
   i <- 1
