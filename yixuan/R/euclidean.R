@@ -1,10 +1,8 @@
-#' The algoritm to implement is the Euclidian algorithm to find the greatest common divisor of two
-#' numbers.
-#' 
+#' Find the greatest common divisor of two numbers.
 #' @param x A number.
 #' @param y A number.
 #' @return the greatest common divisor of \code{x} and \code{y}.
-#' \code{\link{https://en.wikipedia.org/wiki/Euclidean_algorithm}}
+#' \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #' @examples
 #' euclidian(123612, 13892347912)
 #' euclidian(100, 1000)

@@ -1,16 +1,12 @@
 #' Dijkstra's algorithm is an algorithm for finding the shortest 
 #' paths between nodes in a graph.
-#' @param graph A data.frame.
+#' @param graph A data with v1,v2 & w.
 #' @param init_node A number.
-#' @return a vector of shortest path from the \code {init_node} to every other node in the \code {graph}.
-#' \code{\link{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}}
+#' @return the greatest common divisor of \code{x} and \code{y}.
+#' \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 #' @examples
-#' {wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
-#'            v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5),
-#'            w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9))
 #' dijkstra(wiki_graph, 1)
-#' dijkstra(wiki_graph, 3)}
-
+#' dijkstra(wiki_graph, 3)
 dijkstra <- function(graph, init_node){
   stopifnot(is.data.frame(graph) && is.numeric(init_node ) && any(init_node == graph[,1]))
   stopifnot(graph[,1]==v1&&graph[,2]==v2&&graph[,3]==w)
