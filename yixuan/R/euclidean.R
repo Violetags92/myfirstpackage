@@ -4,8 +4,8 @@
 #' @return the greatest common divisor of \code{x} and \code{y}.
 #' \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 #' @examples
-#' euclidian(123612, 13892347912)
-#' euclidian(100, 1000)
+#' euclidean(123612, 13892347912)
+#' euclidean(100, 1000)
 euclidean <- function(x,y){
   stopifnot(is.numeric(x)&&is.numeric(y))
   i <- 1
