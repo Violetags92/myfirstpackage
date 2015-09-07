@@ -2,7 +2,7 @@
 #' paths between nodes in a graph.
 #' @param graph A data.frame.
 #' @param init_node A number.
-#' @return {a vector of shortest path from the initial node to every other node in the graph.}
+#' @return a vector of shortest path from the \code {init_node} to every other node in the \code {graph}.
 #' \code{\link{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}}
 #' @examples
 #' {wiki_graph <- data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
