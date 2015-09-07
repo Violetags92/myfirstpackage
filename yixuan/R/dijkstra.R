@@ -15,9 +15,8 @@ dijkstra <- function(graph, init_node){
   i <- 2
   cal <- vector(length = max(max(graph[,1]), max(graph[,2])))
   cal[init_node] <- init_node
-  dis <- vector()
+  dis <- vector(length = max(max(graph[,1]), max(graph[,2])))
   dis[init_node] <- 0
-  
   result[[1]] <- vector(mode = "numeric", length = 6L)
   result[[1]][] <- Inf
   result[[1]][init_node] <- 0
@@ -25,6 +24,7 @@ dijkstra <- function(graph, init_node){
     result[[i]] <- vector(mode = "numeric", length = 6L)
     result[[i]][] <- Inf
     j <- 1
+    graph1[[i]] <- matrix(data = NA)
     graph1[[(i-1)]] <- graph[graph[,1]==which.min(result[[(i-1)]]) , ]
     for(j in 1 : max(max(graph[,1]), max(graph[,2]))){
       if(any(j != cal[j])){
