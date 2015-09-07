@@ -6,7 +6,7 @@ Date: 2015-09-07
 Author: Yixuan xu & Violeta García Sáez
 Maintainer: Yixuan <yixxu916@student.liu.se>
 Description: Cause we need to practice how to create a package in R, we made this.
-License: free
+License: GPL-2 | GPL-3
 LazyData: true
 Suggests: testthat
 Depends: R (>= 2.10)
