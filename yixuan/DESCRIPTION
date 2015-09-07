@@ -1,0 +1,9 @@
+Package: yixuan
+Type: Package
+Title: Practice to create a package in R
+Version: 1.0
+Date: 2015-09-07
+Author: Yixuan xu & Violeta García Sáez
+Maintainer: Yixuan <yixxu916@student.liu.se>
+Description: hence we need to practice how to create a package in R, we made this
+License: free
