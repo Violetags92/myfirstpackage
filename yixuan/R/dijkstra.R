@@ -2,7 +2,7 @@
 #' paths between nodes in a graph.
 #' @param graph A data with v1,v2 & w.
 #' @param init_node A number.
-#' @return the greatest common divisor of \code{x} and \code{y}.
+#' @return  a vector.
 #' \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 #' @examples
 #' dijkstra(wiki_graph, 1)

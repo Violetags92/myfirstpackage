@@ -13,7 +13,7 @@ dijkstra(graph, init_node)
 \item{init_node}{A number.}
 }
 \value{
-the greatest common divisor of \code{x} and \code{y}.
+a vector.
 \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 }
 \description{

@@ -6,7 +6,7 @@
 #' @examples
 #' euclidian(123612, 13892347912)
 #' euclidian(100, 1000)
-euclidian <- function(x,y){
+euclidean <- function(x,y){
   stopifnot(is.numeric(x)&&is.numeric(y))
   i <- 1
   j <- 1
