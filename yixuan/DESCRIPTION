@@ -9,3 +9,4 @@ Description: Cause we need to practice how to create a package in R, we made thi
 License: free
 LazyData: true
 Suggests: testthat
+Depends: R (>= 2.10)
