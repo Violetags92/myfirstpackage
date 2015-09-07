@@ -1,8 +1,8 @@
-context("euclidian correctness")
-test_that("euclidian correctness" , {
-  expect_that(euclidian(1,4), equals(1))
-  expect_that(euclidian(3,7), equals(1))
-  expect_that(euclidian(10,100),equals(10))
+context("euclidean correctness")
+test_that("eucledian correctness" , {
+  expect_that(euclidean(1,4), equals(1))
+  expect_that(euclidean(3,7), equals(1))
+  expect_that(euclidean(10,100),equals(10))
 })
 
 context("dijkstra correctness")
