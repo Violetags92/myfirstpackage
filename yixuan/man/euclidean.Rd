@@ -19,7 +19,7 @@ the greatest common divisor of \code{x} and \code{y}.
 Find the greatest common divisor of two numbers.
 }
 \examples{
-euclidian(123612, 13892347912)
-euclidian(100, 1000)
+euclidean(123612, 13892347912)
+euclidean(100, 1000)
 }
 
