@@ -4,6 +4,7 @@ test_that("eucledian correctness" , {
   expect_that(euclidean(1,4), equals(1))
   expect_that(euclidean(3,7), equals(1))
   expect_that(euclidean(10,100),equals(10))
+  expect_that(euclidean(4,4),equals(4))
 })
 
 context("dijkstra correctness")
