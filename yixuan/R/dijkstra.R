@@ -29,7 +29,7 @@ dijkstra <- function(graph, init_node){
     for(j in 1 : max(max(graph[,1]), max(graph[,2]))){
       if(any(j != cal[j])){
         
-        result[[i]][j]<- min(min(result[[(i-1)]] + graph1[[(i-1)]][graph1[[(i-1)]][,2] == j, 3]),result[[(i-1)]][j])
+        result[[i]][j]<- suppressWarnings(min(min(result[[(i-1)]] + graph1[[(i-1)]][graph1[[(i-1)]][,2] == j, 3]),result[[(i-1)]][j]))
       }
     }
     dis[which.min((result)[[i]])] <- min(result[[i]])
