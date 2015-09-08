@@ -1,3 +1,4 @@
+library(yixuan)
 context("euclidean correctness")
 test_that("eucledian correctness" , {
   expect_that(euclidean(1,4), equals(1))

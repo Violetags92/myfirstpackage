@@ -7,7 +7,7 @@ wiki_graph
 \description{
 test data
 }
-\usage{data("wiki_graph")}
+\usage{data(wiki_graph)}
 \format{
   A data frame with 18 observations on the following 3 variables.
   \describe{
@@ -18,9 +18,5 @@ test data
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
-}
-\examples{
-data(wiki_graph)
-## maybe str(wiki_graph) ; plot(wiki_graph) ...
 }
 \keyword{datasets}
