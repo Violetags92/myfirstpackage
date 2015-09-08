@@ -3,8 +3,8 @@ Type: Package
 Title: Practice to create a package in R
 Version: 1.0
 Date: 2015-09-07
-Author: c(Yixuan,  Violeta)
-Maintainer: Yixuan <yixxu916@student.liu.se>
+Author: Yixuan,  Violeta
+Maintainer: Yixuan (yixxu916@student.liu.se)
 Description: Cause we need to practice how to create a package in R, we made this.
 License: GPL-2 | GPL-3
 LazyData: true
