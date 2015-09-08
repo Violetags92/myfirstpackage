@@ -8,7 +8,7 @@ paths between nodes in a graph.}
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{graph}{A data with v1,v2 and w.}
+\item{graph}{A data with v1,v2 & w.}
 
 \item{init_node}{A number.}
 }
